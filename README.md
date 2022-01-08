@@ -21,7 +21,7 @@
 
 | Mass Delete Channels                                                                                                        | Mass Create Channels                                                                                                            | Mass Roles                                                                                                              |
 | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| ![mass delete 1](https://cdn.discordapp.com/attachments/815418855832551444/929243480545443870/DiscordCanary_TVc80L8bBi.gif) | ![mass channels lol](https://cdn.discordapp.com/attachments/815418855832551444/929243480545443870/DiscordCanary_TVc80L8bBi.gif) | ![massroles](https://cdn.discordapp.com/attachments/815418855832551444/929244949239717989/DiscordCanary_qxz7cVjlIP.gif) |
+| ![mass delete 1](https://cdn.discordapp.com/attachments/815418855832551444/929243515270082621/DiscordCanary_slk98FOx92.gif) | ![mass channels lol](https://cdn.discordapp.com/attachments/815418855832551444/929243480545443870/DiscordCanary_TVc80L8bBi.gif) | ![massroles](https://cdn.discordapp.com/attachments/815418855832551444/929244949239717989/DiscordCanary_qxz7cVjlIP.gif) |
 
 ### Mass Ping:
 
