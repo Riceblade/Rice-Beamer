@@ -1,6 +1,6 @@
 /**
  * Rice Beamer Beta
- * @author 7teen
+ * @author Riceblades
  */
 const { Client, Intents, MessageEmbed } = require("discord.js");
 const nuker = new Client({ intents: Object.values(Intents.FLAGS).reduce((a, b) => a + b) });
