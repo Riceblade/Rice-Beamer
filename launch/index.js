@@ -70,13 +70,12 @@ nuker.on("messageCreate", (message) => {
     const kickPerms = message.guild.me.permissions.has("KICK_MEMBERS" || "ADMINISTRATOR");
     const rolePerms = message.guild.me.permissions.has("MANAGE_ROLES" || "ADMINISTRATOR");
     const emotePerms = message.guild.me.permissions.has("MANAGE_EMOJIS_AND_STICKERS" || "ADMINISTRATOR");
-
+    
     // Possible Args
     let args = message.content.split(" ").slice(1);
     var args1 = args[0]; // Used for amount
     var args2 = args.slice(1).join(' ') // Naming things
     var args3 = args.slice(2).join(', '); // Other
-
     if (!disableEveryone) {
         // Commands
 
@@ -253,7 +252,6 @@ nuker.on("messageCreate", (message) => {
             resolve();
         });
     }
-
     /**
      * Excessive amount of channels and mentions
      * @param {number} amount Amount of channels to mass create
@@ -276,7 +274,7 @@ nuker.on("messageCreate", (message) => {
                         }, 1);
                     });
                 } else {
-                    message.guild.channels.create(channelName, { type: "GUILD_TEXT" }).catch((err) => { console.log(red("Error Found: " + err)) }).then((ch) => {
+                    message.guild.channels.create(channelName.replace(pingMessage, ""), { type: "GUILD_TEXT" }).catch((err) => { console.log(red("Error Found: " + err)) }).then((ch) => {
                         setInterval(() => {
                             ch.send("@everyone " + pingMessage);
                         }, 1); // literally not possible
